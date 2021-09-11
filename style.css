@@ -121,6 +121,13 @@ body{
     border-radius: 1rem;
 }
 
+.showcase-list {
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3rem auto;
+}
+
 .footer{
     text-align: center;
     background-color: var(--primary-color);

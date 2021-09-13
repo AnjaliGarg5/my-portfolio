@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #6EE7B7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    padding: 0rem 1rem;
+}
+
+.container-center{
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+
+.container-heading{
+    margin: 1rem;
+}
+
+.container p{
+    margin-bottom: 2rem;
+}
+
+.ow{
+    background-color: #f3f4f6;;
+}
+
+.non-bullet-list{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+.active-link{
+    font-weight: bold;
+}
+
+.primary-link{
+    background-color: var(--primary-color);
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
+    margin: 2rem auto;
+    border-radius: 2rem;
+}
+
+.secondary-link {
+    max-width: 140px;
+    margin: 1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem .5rem;
+}
+
+.nav{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: white;
+    border-bottom-left-radius: 2rem;
+}
+
+.nav .nav-brand{
+    font-weight: bold;
+}
+
+.nav-list{
+    text-align: right;
+    margin: 1rem;
+}
+
+.header{
+    padding: 2rem;
+    padding-top: 2rem;
+}
+
+.header .header-image{
+    max-width: 80%;
+    width: 600px;
+    margin: auto;
+    display: block;
+}
+
+.header .header-heading{
+    text-align: center;
+    color: #999;
+    padding-top: 2rem;
+}
+
+.heading-span{
+    color: var(--primary-color);
+}
+
+.section{
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.showcase-list {
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.footer{
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem 1rem;
+    border-top-right-radius: 2rem;
+}
+
+.footer-header{
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+

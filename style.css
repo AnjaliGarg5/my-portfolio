@@ -20,28 +20,37 @@ body{
 }
 
 .container{
-    padding: 0rem 1rem;
-}
-
-.container-center{
     max-width: 900px;
     width: 100%;
     margin: auto;
+    margin-bottom: 1rem;
 }
 
 .container-heading{
+    text-align: center;
     margin: 1rem;
+    font-size: xx-large;
 }
 
-.container p{
-    margin-bottom: 2rem;
+.container p, .section p{
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 1rem;
 }
 
-.ow{
+.section{
+    padding: 1rem;
+    margin: 3rem 0;
+    text-align: center;
+    height: 50vh;
+}
+
+
+.odd{
     background-color: var(--background-color);
 }
 
-.bd{
+.even{
     border: solid 1px;
     border-color: var(--background-color);
 }
@@ -65,16 +74,13 @@ body{
 .primary-link{
     background-color: var(--background-color);
     max-width: 140px;
-    padding: 0.6rem 1.2rem;
-    margin: 2rem auto;
     border-radius: 2rem;
     color: var(--primary-color);
+    margin: 2rem 0;
 }
 
 .secondary-link {
     max-width: 140px;
-    margin: 1rem;
-    padding: 0.6rem 1.2rem;
     border-radius: 2rem;
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
@@ -86,12 +92,10 @@ body{
 }
 
 .nav{
-    padding: 1rem;
     height: 10vh;
     position: sticky;
     top: 0;
     width: 100%;
-    border: 1px;
     background-color: var(--primary-color);
 }
 
@@ -99,6 +103,9 @@ body{
     font-weight: bold;
     font-size: larger;
     color: var(--background-color);
+    width: 100%;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
 }
 
 .nav-list{
@@ -140,22 +147,18 @@ body{
     color: var(--background-color);
 }
 
-.section{
-    padding: 1rem;
-    padding-bottom: 2rem;
-    margin: 3rem 0;
-    text-align: center;
-    
-    height: 50vh;
-}
 
 .icons{
-    font-size: 5rem;
     justify-content: space-between;
+    margin-top: 1rem;
+    text-align: left;
 }
 
 .icon-image{
-    width: 20rem;
+    max-width: 20rem;
+    width: 15rem;
+    margin: 0 3.5rem;
+    display: inline;
 }
 
 .showcase-list {
